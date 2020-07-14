@@ -23,12 +23,79 @@
             <div class="nav-secondary">
 
                 <div class="mobile-only">
-                    <a href="#" class="nav-item nav-profile-item">
-                        <img width="30" height="30" alt="shaiq kar" class="nav-profile-img" src="./static/img/nav-profile-icon.jpg">
+                    <a href="#" class="nav-item nav-profile-item" id="sidebar-btn">
+                        <img width="50" height="50" alt="shaiq kar" class="nav-profile-img" src="./static/img/nav-profile-icon.jpg">
                         <div class="mobile-nav-badge">
                             <svg height="10px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="10px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" style="fill: #0077B5"/></svg>
                         </div>
                     </a>
+                    <!-- new task -->
+                    <div class="mobile-sidebar" id="sidenav-mobile">
+                        <div class="ms-top-sec">
+                            <div class="ms-ts-top">
+                                <img width="30" height="30" alt="shaiq kar" class="ms-pimg" src="./static/img/nav-profile-icon.jpg" alt="Shaiq Kar">
+                                <img src="./static/img/sidebar/moon.svg" class="ms-ts-top-switch" alt="Moon">
+                            </div>
+                            <div class="ms-ts-bottom">
+                                <span>
+                                    <span class="text-bold hoverable">Shaiq Iqbal Kar</span></br>
+                                    <span class="text-small">+91 7006343764</span>
+                                </span>
+                                <span class="ms-drop hoverable">
+                                    <img src="./static/img/sidebar/arrow.svg" alt="Drop Cap" id="drop-nav-btn">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="ms-drop-nav" id="drop-nav">
+                            <a href="#" class="ms-drop-item ms-drop-profile">
+                                <img alt="shaiq kar" src="./static/img/nav-profile-icon.jpg">
+                                <span class="text-bold">Shaiq Iqbal Kar</span>
+                            </a>
+                            <a href="#" class="ms-drop-item">
+                                <img src="./static/img/sidebar/plus.svg" style="width:1.5rem">
+                                <span class="text-bold">Add Account</span>
+                            </a>
+                        </div>
+                        <div class="ms-nav">
+                            <a class="ms-nav-item">
+                                <img src="./static/img/sidebar/users.svg">
+                                <span class="text-bold">New Group</span>
+                            </a>
+                            <a class="ms-nav-item">
+                                <img src="./static/img/sidebar/lock.svg">
+                                <span class="text-bold">New Secret Chat</span>
+                            </a>
+                            <a class="ms-nav-item">
+                                <img src="./static/img/sidebar/megaphone.svg">
+                                <span class="text-bold">New Channel</span>
+                            </a>
+                            <a class="ms-nav-item">
+                                <img src="./static/img/sidebar/user.svg">
+                                <span class="text-bold">Contacts</span>
+                            </a>
+                            <a class="ms-nav-item">
+                                <img src="./static/img/sidebar/phone.svg">
+                                <span class="text-bold">Calls</span>
+                            </a>
+                            <a class="ms-nav-item">
+                                <img src="./static/img/sidebar/bookmark.svg">
+                                <span class="text-bold">Saved Messages</span>
+                            </a>
+                            <a class="ms-nav-item">
+                                <img src="./static/img/sidebar/settings.svg">
+                                <span class="text-bold">Settings</span>
+                            </a>
+                            <span class="ms-nav-break"></span>
+                            <a class="ms-nav-item">
+                                <img src="./static/img/sidebar/user-plus.svg">
+                                <span class="text-bold">Invite Friends</span>
+                            </a>
+                            <a class="ms-nav-item">
+                                <img src="./static/img/sidebar/faq.svg">
+                                <span class="text-bold">Linkedin FAQ</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="nav-logo">
@@ -128,7 +195,7 @@
     </div>
     <!-- /Mobile Menu -->
 
-    <main>
+    <main class="app">
 
         <div class="posts-container">
 
